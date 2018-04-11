@@ -5,6 +5,10 @@
     <title>Sander va her</title>
 </head>
 <body>
-<p>Det funke...</p>
+    <div>
+        {% for post in posts %}
+            {{ post }}
+        {%  endfor %}
+    </div>
 </body>
 </html>
